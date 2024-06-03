@@ -1,0 +1,12 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node your-script.js",
+    "dev": "cross-env NODE_ENV=development tailwindcss --postcss -i ./src/styles.css -o ../static/css/dist/styles.css -w"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-import": "^16.1.0"
+  }
+}

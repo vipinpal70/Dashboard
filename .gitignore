@@ -1,0 +1,38 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Static files
+/staticfiles/
+
+# Virtual Environment
+.venv
+venv
+env/
+ENV/
+
+# node-module folder
+node_modules
+./node_modules
+/node_modules
+/node_modules/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Other
+*.sqlite3
+*.swp
+*~
